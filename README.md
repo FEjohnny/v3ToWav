@@ -22,6 +22,7 @@ const result = v3BufferToWav(v3MediaBase61).toString('base64');
 ### 调用 Howl 即可直接播放
 
 const result = v3BufferToWav(v3MediaBase61).toString('base64');
+
 new Howl({
 src: [`data:audio/wav;base64,${result}`],
 })
