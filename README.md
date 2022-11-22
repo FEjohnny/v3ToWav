@@ -8,3 +8,15 @@ v3 to mp4
 eg.
 
 # 使用说明
+
+import { v3BufferToWav } from 'v3ToWav';
+
+// 传入.v3 文件的 base64 数据，即可返回.wav 格式二进制内容
+const result = v3BufferToWav(v3MediaBase61);
+
+// 如果需要 base64 格式的，直接 toString 即可，
+const result = v3BufferToWav(v3MediaBase61).toString('base64');
+// 调用 Howl 即可直接播放
+new Howl({
+src: [`data:audio/wav;base64,${result}`],
+})
