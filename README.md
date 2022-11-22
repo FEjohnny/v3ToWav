@@ -35,5 +35,5 @@ src: [`data:audio/wav;base64,${result}`],
 
 # 版本记录
 
-v 3.0.0
+v 1.0.0
 初始化
