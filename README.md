@@ -32,3 +32,11 @@ const result = v3BufferToWav(v3MediaBase61).toString('base64');
 new Howl({
 src: [`data:audio/wav;base64,${result}`],
 })
+
+# 版本记录
+
+v 1.0.1
+问题修复
+
+v 1.0
+初始化
