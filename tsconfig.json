@@ -4,7 +4,8 @@
         "src/**/*.ts",
         "src/*.ts",
         "test/*.*.ts",
-        "test/*/*.*.ts"
+        "test/*/*.*.ts",
+        "test/index.test.js"
     ],
     "output": "./dist/",
     "paths": {
