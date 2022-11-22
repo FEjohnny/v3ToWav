@@ -1,6 +1,6 @@
 {
     "name": "v3towav",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "description": "v3 to wav, v3 to mp4",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",

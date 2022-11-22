@@ -35,8 +35,5 @@ src: [`data:audio/wav;base64,${result}`],
 
 # 版本记录
 
-v 2.0.0
-问题修复
-
 v 1.0
 初始化
